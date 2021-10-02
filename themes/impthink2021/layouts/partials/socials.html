@@ -1,0 +1,8 @@
+<span id="social-links">
+  {{ with .github }}
+  <a href="https://github.com/{{ .username }}">github</a>
+  {{ end }} {{ with .twitter }}
+  <a href="https://twitter.com/{{ .username }}">twitter</a>
+  {{ end }} {{ with .email }}
+  <a href="mailto:{{ .address }}">e-mail</a>{{ end }}
+</span>

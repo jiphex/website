@@ -1,0 +1,13 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-GB'
+title = 'Imperative Thinking'
+theme = 'impthink2021'
+
+[params.github]
+username = 'jiphex'
+
+[params.twitter]
+username = 'jiphex'
+
+[params.email]
+address = 'brisk.wood3314@fastmail.com' # Masked email

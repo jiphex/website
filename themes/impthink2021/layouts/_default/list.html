@@ -1,0 +1,12 @@
+{{ define "main" }}
+<main>
+  {{ partial "page-article" . }}
+  <menu>
+    <ul>
+      {{ range .Site.Pages }}
+      <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+      {{ end }}
+    </ul>
+  </menu>
+</main>
+{{end }}
