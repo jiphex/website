@@ -2,6 +2,9 @@ baseURL = 'http://example.org/'
 languageCode = 'en-GB'
 title = 'Imperative Thought'
 theme = 'impthink2021'
+enableEmoji = true
+enableGitInfo = true
+enableRobotsTxt = true
 
 [markup.highlight]
 lineNos = true

@@ -8,4 +8,9 @@
 {{ partial "sass" "sass/jph.scss" }}
 <link href="/css/chroma-dark.css" rel="stylesheet" type="text/css" media="(prefers-color-scheme: dark)">
 <link href="/css/chroma-light.css" rel="stylesheet" type="text/css" media="(prefers-color-scheme: light)">
-<title>{{.Site.Title}}</title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<title>
+  {{ with .Page.Title }}
+  {{ . }} |
+  {{ end }}{{.Site.Title}}
+</title>
