@@ -1,10 +1,11 @@
 <meta charset="UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.2" media="screen and (max-width: 601px)" />
+<meta name="viewport" content="width=device-width, initial-scale=0.8" media="screen and (min-width: 600px)" />
 {{ range .AlternativeOutputFormats -}}
 {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 {{ end -}}
 {{ partial "sass" "sass/jph.scss" }}
-<link href="/css/chroma-dark.css" rel="stylesheet" type="text/css" media="screen and (prefers-color-scheme: dark)">
-<link href="/css/chroma-light.css" rel="stylesheet" type="text/css" media="screen and (prefers-color-scheme: light)">
+<link href="/css/chroma-dark.css" rel="stylesheet" type="text/css" media="(prefers-color-scheme: dark)">
+<link href="/css/chroma-light.css" rel="stylesheet" type="text/css" media="(prefers-color-scheme: light)">
 <title>{{.Site.Title}}</title>

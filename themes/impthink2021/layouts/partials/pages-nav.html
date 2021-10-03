@@ -2,11 +2,11 @@
   <ul>
     <!-- <li><a href="{{ .Site.Home.RelPermalink }}">Home</a></li> -->
     {{ range .Pages.ByWeight }}
-    <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+    <li><a href="{{ .Page.RelPermalink }}" description="{{ .Page.Description }}">{{ .Page.Title }}</a></li>
     {{ with .Pages }}
     <ul>
       {{ range . }}
-      <li><a href='{{ .RelPermalink }}'>{{ .Title }}</a></li>
+      <li><a href='{{ .RelPermalink }}' description="{{ .Page.Description }}">{{ .Title }}</a></li>
       {{ end }}
     </ul>
     {{ end }}

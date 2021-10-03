@@ -1,6 +1,6 @@
 +++
-title="About James"
-url="/james"
+title="The Author"
+date="2021-10-03T14:25:01+01:00"
 +++
 
 {{< pageimage james Fit "400x400" />}}

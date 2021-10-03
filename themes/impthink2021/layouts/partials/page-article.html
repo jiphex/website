@@ -2,7 +2,12 @@
   <article>
     {{ if not .Page.IsHome }}
     <header>
-      <h2 id='article-title'><span id='page-title-emoji'>{{ .Page.Params.emoji}}</span>{{ .Title }}</h2>
+      <h2 id='article-title'>
+        {{- with .Page.Params.emoji }}
+        <span id='page-title-emoji'>{{ . }}</span>
+        {{ end }}
+        {{ .Title }}
+      </h2>
     </header>
     {{ end }}
     <div id='article-content'>
