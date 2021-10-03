@@ -1,4 +1,9 @@
-<header>
-  <h1>{{ .Site.Title }}</h1>
+<div id='site-header'>
+  <a id='site-title' href="{{ .Site.Home.RelPermalink }}">
+    <h1>{{ .Site.Title }}</h1>
+  </a>
   <div id="socials">James @ {{ partial "socials" .Site.Params }}</div>
-</header>
+  {{- with .Site.Params.abstract -}}
+  <div id="abstract">{{ . }}</div>
+  {{ end }}
+</div>

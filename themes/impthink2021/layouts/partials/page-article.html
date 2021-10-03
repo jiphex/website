@@ -1,6 +1,15 @@
-<article>
-  <header>
-    <h2>{{ .Title }}</h2>
-  </header>
-  {{ .Content }}
-</article>
+<main id='page-article'>
+  <article>
+    {{ if not .Page.IsHome }}
+    <header>
+      <h2 id='article-title'><span id='page-title-emoji'>{{ .Page.Params.emoji}}</span>{{ .Title }}</h2>
+    </header>
+    {{ end }}
+    <div id='article-content'>
+      {{ .Content }}
+    </div>
+    {{- if .Page.IsPage -}}
+    {{ partial "page-info" . }}
+    {{- end -}}
+  </article>
+</main>

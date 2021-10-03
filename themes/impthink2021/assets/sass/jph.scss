@@ -1,6 +1,6 @@
 @media (prefers-color-scheme: light) {
   :root {
-    --bgcolor: #e9edd7;
+    --bgcolor: #eeeedd;
     --fgcolor: #000;
   }
   a:link,
@@ -12,7 +12,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --fgcolor: #eee;
-    --bgcolor: #222;
+    --bgcolor: #272822;
   }
   a:link,
   a:visited {
@@ -33,7 +33,13 @@ body {
   margin-top: 3em;
 }
 
-header {
+#site-header {
+  a:link#site-title {
+    text-decoration: none;
+  }
+  a:hover#site-title {
+    text-decoration: underline;
+  }
   h1 {
     font-size: 30pt;
     text-align: center;
@@ -44,17 +50,97 @@ header {
       font-size: 24pt;
     }
   }
-  #socials {
+  * {
     text-align: center;
   }
-  #summary {
-    text-align: center;
-    margin: 3px;
+  #abstract {
+    margin: 10px 0px;
   }
 }
 
-main #page-content {
-  margin: 10px;
-  line-height: 150%;
-  text-justify: newspaper;
+#page-article {
+  h2#article-title {
+    font-size: 20pt;
+    margin: 5px 0px;
+  }
+  #article-content {
+    margin: 10px;
+    line-height: 150%;
+    text-justify: newspaper;
+    h1 {
+      font-size: 13pt;
+    }
+  }
+}
+
+#list-page-contents {
+  nav {
+    ul {
+      list-style-type: none;
+      padding-left: 1em;
+      li {
+        margin: 3px;
+      }
+    }
+
+    #narrow-divider {
+      display: none;
+    }
+    padding-right: 20px;
+    margin: 0px 20px 0px 0px;
+    border-right: 1px solid;
+    border-bottom: none;
+  }
+  display: flex;
+  flex-flow: row nowrap;
+  @media (max-width: 600px) {
+    flex-direction: column;
+    nav {
+      #narrow-divider {
+        display: block;
+      }
+      border-right: none;
+    }
+  }
+}
+
+#single-page-contents {
+  #page-nav-links {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  #page-title-emoji {
+    font-size: 1em;
+    margin-right: 10px;
+  }
+  #page-info {
+    h4 {
+      margin-bottom: 2px;
+    }
+    margin: 20px 0px;
+    color: #888;
+  }
+}
+
+footer {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 600px;
+  @media (max-width: 600px) {
+    flex-flow: column nowrap;
+    width: 100%;
+    .footer-item {
+      --gap: 5px;
+      margin: 0px var(--gap) 0px var(--gap);
+    }
+  }
+  .footer-item {
+    --gap: 5px;
+    margin: var(--gap) 0px var(--gap) 0px;
+  }
 }

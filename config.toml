@@ -1,13 +1,42 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-GB'
-title = 'Imperative Thinking'
+title = 'Imperative Thought'
 theme = 'impthink2021'
+
+[markup.highlight]
+lineNos = true
+noClasses = false
+style = 'doom-one'
 
 [params.github]
 username = 'jiphex'
+[params.github.siteRepo]
+owner = 'jiphex'
+repo = 'jph2021'
 
 [params.twitter]
 username = 'jiphex'
 
 [params.email]
 address = 'brisk.wood3314@fastmail.com' # Masked email
+
+[params.license]
+url = "https://creativecommons.org/licenses/by-sa/2.0/"
+text = "CC-BY-SA"
+
+[params]
+abstract = '''
+  A blog about imperative systems administration in "the cloud"
+'''
+
+[imaging.exif]
+# Hugo extracts the "photo taken" date/time into .Date by default.
+# Set this to true to turn it off.
+# disableDate = true
+
+# Hugo extracts the "photo taken where" (GPS latitude and longitude) into
+# .Long and .Lat. Set this to true to turn it off.
+# disableLatLong = true
+
+[outputs]
+home = ['HTML', 'JSON']

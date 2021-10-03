@@ -1,0 +1,18 @@
+<nav id='pages-menu'>
+  <ul>
+    <!-- <li><a href="{{ .Site.Home.RelPermalink }}">Home</a></li> -->
+    {{ range .Pages.ByWeight }}
+    <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+    {{ with .Pages }}
+    <ul>
+      {{ range . }}
+      <li><a href='{{ .RelPermalink }}'>{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+    {{ end }}
+    {{ end }}
+  </ul>
+</nav>
+<div id='narrow-divider'>
+  <hr />
+</div>

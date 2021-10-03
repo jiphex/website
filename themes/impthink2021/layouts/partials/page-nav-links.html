@@ -1,0 +1,15 @@
+<div id="page-nav-links">
+  {{/* Ok, the order of next/prev is wrong here, but it works */}}
+  {{ with .Page.Next }}
+  <a href='{{ .RelPermalink }}'> {{ default "⬅️" .Params.emoji }} {{ .Title }}</a>
+  {{ else }}
+  <div id='first'>
+    <!--This is the first page -->
+  </div>
+  {{ end }}
+  {{ with .Page.Prev }}
+  <a href='{{ .RelPermalink }}'>{{ .Title }} {{ default "➡️" .Params.emoji }} </a>
+  {{ else }}
+  <a href='{{ .Site.Home.RelPermalink}}'>Back to Index</a>
+  {{ end }}
+</div>

@@ -1,12 +1,6 @@
 {{ define "main" }}
-<main>
+<div id='list-page-contents'>
+  {{ partial "pages-nav" . }}
   {{ partial "page-article" . }}
-  <menu>
-    <ul>
-      {{ range .Site.Pages }}
-      <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
-      {{ end }}
-    </ul>
-  </menu>
-</main>
+</div>
 {{end }}

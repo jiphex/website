@@ -1,1 +1,6 @@
-{{ define "main" }} {{partial "page-article" . }} {{end }}
+{{ define "main" }}
+<div id='single-page-contents'>
+  {{ partial "page-article" . }}
+  {{ partial "page-nav-links" . }}
+</div>
+{{end }}
