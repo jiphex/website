@@ -12,7 +12,7 @@ style = 'doom-one'
 username = 'jiphex'
 [params.github.siteRepo]
 owner = 'jiphex'
-repo = 'jph2021'
+repo = 'website'
 
 [params.twitter]
 username = 'jiphex'
