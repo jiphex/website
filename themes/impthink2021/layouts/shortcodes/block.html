@@ -3,5 +3,5 @@
   {{- with $title -}}
   <h2>{{ $title }}</h2>
   {{- end -}}
-  {{ .Inner }}
+  {{ .Inner | markdownify}}
 </div>
