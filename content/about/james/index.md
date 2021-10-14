@@ -1,6 +1,7 @@
 +++
 title="The Author"
 date="2021-10-03T14:25:01+01:00"
+draft=false
 +++
 
 {{< pageimage james Fit "400x400" />}}
