@@ -1,13 +1,13 @@
 <div id="page-nav-links">
   {{/* Ok, the order of next/prev is wrong here, but it works */}}
-  {{ with .Page.Next }}
+  {{ with .Page.NextInSection }}
   <a href='{{ .RelPermalink }}'> {{ default "⬅️" .Params.emoji }} {{ .Title }}</a>
   {{ else }}
   <div id='first'>
-    <!--This is the first page -->
+    <a href='{{ .Site.Home.RelPermalink}}'>Back to Index</a>
   </div>
   {{ end }}
-  {{ with .Page.Prev }}
+  {{ with .Page.PrevInSection }}
   <a href='{{ .RelPermalink }}'>{{ .Title }} {{ default "➡️" .Params.emoji }} </a>
   {{ else }}
   <a href='{{ .Site.Home.RelPermalink}}'>Back to Index</a>

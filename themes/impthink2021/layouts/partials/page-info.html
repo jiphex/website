@@ -1,10 +1,9 @@
 <div id='page-info'>
   <small>
-    <h4>Page Info</h3>
-      <div id='article-modtime'>Last Modified At: {{ time .Page.Lastmod "Europe/London" }}</div>
-      <div id='article-readtime'>Reading Time: {{ .Page.ReadingTime }} minutes ({{ .Page.WordCount }} words)</div>
-      <div id='article-location'>Type: {{ .Page.Type }}:{{ .Page.File.UniqueID }}:{{ .Page.Kind }} @
-        {{ .Page.Weight }}wt
-      </div>
+    <div id='article-modtime'>Last Modified At: {{ time .Page.Lastmod "Europe/London" }}</div>
+    <div id='article-readtime'>Reading Time: {{ .Page.ReadingTime }} minutes ({{ .Page.WordCount }} words)</div>
+    <div id='article-location'>Type: {{ .Page.Type }}:{{ .Page.File.UniqueID }}:{{ .Page.Kind }} @
+      {{ .Page.Weight }}wt
+    </div>
   </small>
 </div>
