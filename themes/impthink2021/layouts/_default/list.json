@@ -1,3 +1,3 @@
 {{
-  dict "site" .Site "title" .Title "content" .RawContent | jsonify
+  dict "site" .Site "title" .Site.Title "content" .RawContent | jsonify
 }}

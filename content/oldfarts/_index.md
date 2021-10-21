@@ -1,8 +1,8 @@
----
-title: "Linux for Old-Farts"
-date: 2021-10-14T17:27:24+01:00
-draft: false
----
++++
+title="Linux for Old-Farts"
+date="2021-10-14T17:27:24+01:00"
+draft=false
++++
 
 This is a series of posts which are intended to be useful for Linux users who find themselves familiar with Linux distributions as of maybe a few years ago.
 
