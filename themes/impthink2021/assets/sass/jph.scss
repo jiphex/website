@@ -1,129 +1,134 @@
 @media (prefers-color-scheme: light) {
-  :root {
-    --bgcolor: hsl(60, 33%, 90%);
-    --bgcolor-alt: hsl(60, 33%, 95%);
-    --fgcolor: #000;
-    --accent-color: var(--fgcolor);
-  }
-  a:link,
-  a:visited {
-    color: var(--accent-color);
-  }
+	:root {
+		--bgcolor: hsl(60, 33%, 90%);
+		--bgcolor-alt: hsl(60, 33%, 95%);
+		--fgcolor: #000;
+		--accent-color: var(--fgcolor);
+	}
+	a:link,
+	a:visited {
+		color: var(--accent-color);
+	}
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --fgcolor: #eee;
-    --bgcolor: hsl(70, 8%, 15%);
-    --bgcolor-alt: hsl(70, 8%, 20%);
-    --accent-color: hsl(54, 80%, 66%);
-  }
-  a:link,
-  a:visited {
-    color: var(--accent-color);
-  }
+	:root {
+		--fgcolor: #eee;
+		--bgcolor: hsl(70, 8%, 15%);
+		--bgcolor-alt: hsl(70, 8%, 20%);
+		--accent-color: hsl(54, 80%, 66%);
+	}
+	a:link,
+	a:visited {
+		color: var(--accent-color);
+	}
 }
 
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
 @media only screen and (min-width: 601px) {
-  :root {
-    font-size: 14pt;
-  }
+	:root {
+		font-size: 14pt;
+	}
 }
 
 /* If the screen size is 600px or less, set the font-size of <div> to 30px */
 @media only screen and (max-width: 600px) {
-  :root {
-    font-size: 18pt;
-  }
+	:root {
+		font-size: 18pt;
+	}
 }
 
 body {
-  background-color: var(--bgcolor);
-  color: var(--fgcolor);
+	background-color: var(--bgcolor);
+	color: var(--fgcolor);
 }
 
 #everything {
-  max-width: 1200px;
-  margin: auto;
-  padding: 5px;
-  font-family: -apple-system-serif, "Georgia";
-  margin-top: 3em;
+	max-width: 1200px;
+	margin: auto;
+	padding: 5px;
+	font-family: -apple-system-serif, "Georgia";
+	margin-top: 3em;
 }
 
 #site-header {
-  a:link#site-title {
-    text-decoration: none;
-  }
-  a:hover#site-title {
-    text-decoration: underline;
-  }
-  h1 {
-    font-size: 30pt;
-    text-align: center;
-    margin: 0;
-    font-size: 30pt;
-    @media (max-width: 380) {
-      font-size: 24pt;
-    }
-  }
-  * {
-    text-align: center;
-  }
-  #abstract {
-    margin: 10px 0px;
-  }
+	a:link#site-title {
+		text-decoration: none;
+	}
+	a:hover#site-title {
+		text-decoration: underline;
+	}
+	h1 {
+		font-size: 30pt;
+		text-align: center;
+		margin: 0;
+		font-size: 30pt;
+		@media (max-width: 380) {
+			font-size: 24pt;
+		}
+	}
+	* {
+		text-align: center;
+	}
+	#abstract {
+		margin: 10px 0px;
+	}
 }
 
 #page-article {
-  h2#article-title {
-    font-size: 20pt;
-    margin: 5px 0px;
-  }
-  #article-content {
-    margin: 10px;
-    line-height: 150%;
-    p {
-      text-justify: newspaper;
-    }
-    h1 {
-      font-size: 13pt;
-    }
-  }
+	h2#article-title {
+		font-size: 20pt;
+		margin: 5px 0px;
+	}
+	#article-content {
+		margin: 10px;
+		line-height: 150%;
+		p {
+			text-justify: newspaper;
+		}
+		h1 {
+			font-size: 14pt;
+		}
+		h2 {
+			font-size: 12pt;
+		}
+	}
 }
 
 #list-page-contents {
-  #narrow-divider {
-    display: none;
-  }
-  @media (max-width: 600px) {
-    flex-direction: column;
-    nav {
-      border-right: none !important;
-    }
-    #narrow-divider {
-      display: block;
-      border: 0px;
-    }
-  }
-  nav {
-    ul {
-      list-style-type: none;
-      padding-left: 1em;
-      li {
-        margin: 3px;
-      }
-    }
-    padding-right: 20px;
-    margin: 0px 20px 0px 0px;
-    border-bottom: none;
-    border-right: 1px solid var(--fgcolor);
-  }
-  display: flex;
-  flex-flow: row nowrap;
+	#narrow-divider {
+		display: none;
+	}
+	@media (max-width: 600px) {
+		flex-direction: column;
+		nav {
+			border-right: none !important;
+		}
+		#narrow-divider {
+			display: block;
+			border: 0px;
+		}
+	}
+	nav {
+		ul {
+			list-style-type: none;
+			padding-left: 1em;
+			li {
+				margin: 3px;
+			}
+		}
+		padding-right: 10px;
+		margin: 0px 20px 0px 0px;
+		min-width: 200px;
+		border-bottom: none;
+		border-right: 1px solid var(--fgcolor);
+	}
+	display: flex;
+	flex-flow: row nowrap;
 }
 
 #single-page-contents {
+<<<<<<< HEAD
   #page-nav-links {
     display: flex;
     flex-flow: row nowrap;
@@ -172,42 +177,93 @@ body {
     border: 1px dashed var(--accent-color);
     font-family: -apple-system, sans-serif;
   }
+=======
+	#page-nav-links {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+	#page-title-emoji {
+		font-size: 1em;
+		margin-right: 10px;
+	}
+	#page-info {
+		h4 {
+			margin-bottom: 2px;
+		}
+		margin: 20px 0px;
+		color: #888;
+	}
+	.block {
+		h1,
+		h2,
+		h3,
+		h4 {
+			font-size: 110%;
+			margin: 0px 4px 0px 0px;
+		}
+	}
+	.block.aside {
+		@media (min-width: 600px) {
+			float: right;
+			max-width: 300px;
+			font-size: 13pt;
+			padding: 1rem;
+		}
+		@media (max-width: 601px) {
+			font-size: 16pt;
+		}
+		padding: 1rem;
+		min-width: 100px;
+		margin: 5px 10px;
+		background-color: var(--bgcolor-alt);
+		font-family: -apple-system, sans-serif;
+	}
+	.block.note {
+		background-color: var(--bgcolor-alt);
+		padding: 1em;
+		border: 1px dashed var(--accent-color);
+		font-family: -apple-system, sans-serif;
+		font-size: 90%;
+	}
+>>>>>>> 44f3815 (tweak scss)
 }
 
 footer {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: space-around;
-  margin: auto;
-  max-width: 600px;
-  @media (max-width: 600px) {
-    flex-flow: column nowrap;
-    width: 100%;
-    // .footer-item {
-    //   --gap: 5px;
-    //   margin: 0px var(--gap) 0px var(--gap);
-    // }
-    gap: 0 1rem;
-  }
-  .footer-item {
-    --gap: 5px;
-    margin: var(--gap) 0px var(--gap) 0px;
-  }
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-around;
+	margin: auto;
+	max-width: 600px;
+	@media (max-width: 600px) {
+		flex-flow: column nowrap;
+		width: 100%;
+		// .footer-item {
+		//   --gap: 5px;
+		//   margin: 0px var(--gap) 0px var(--gap);
+		// }
+		gap: 0 1rem;
+	}
+	.footer-item {
+		--gap: 5px;
+		margin: var(--gap) 0px var(--gap) 0px;
+	}
 }
 
 @media not screen {
-  #page-info {
-    display: none;
-  }
+	#page-info {
+		display: none;
+	}
 }
 
 @media print {
-  a:link,
-  a:visited {
-    text-decoration: none !important;
-  }
-  .noprint {
-    display: none;
-  }
+	a:link,
+	a:visited {
+		text-decoration: none !important;
+	}
+	.noprint {
+		display: none;
+	}
 }
