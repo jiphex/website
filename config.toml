@@ -42,4 +42,4 @@ abstract = '''
   disableLatLong = true
 
 [outputs]
-  home = ['HTML', 'JSON']
+  home = ['HTML']
