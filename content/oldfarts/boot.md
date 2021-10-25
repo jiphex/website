@@ -19,8 +19,8 @@ The one that is most pertinent to this post is the selection between "Legacy" or
 Traditional BIOS boot works as follows when the computer starts up:
 
 1. The motherboard's built-in firmware completes a set of hardcoded power-on tests, then checks its internal memory to look up the saved "boot device" which the user has previously selected. This is usually configured as a unique, ordered set of devices.
-2. The motherboard finds the first item in the list of devices which is currently connected to the system, and analyses its [partition table](https://en.wikipedia.org/wiki/Master_boot_record) to find the first partition which has its `Boot` flag set
-3. The BIOS loads a 
+2. The motherboard finds the first device from the list of devices which is currently connected to the system, and analyses its [partition table](https://en.wikipedia.org/wiki/Master_boot_record) to find the first partition which has its `Boot` flag set
+3. The BIOS executes the programme installed on the "bootable" partition, which is a valid 
 
 # UEFI Boot
 

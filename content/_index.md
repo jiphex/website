@@ -4,4 +4,4 @@ draft=false
 weight=10
 +++
 
-Here's some words I've written about things.
+Here's the different blog post series available on this site:
