@@ -7,10 +7,11 @@
   <span class='footer-item' id='author-info'>James Hannah {{ default .Date.Year .Page.Lastmod.Year }}</a></span>
   {{- $repoLink := "" -}}
   {{- if .Site.Params.github.siteRepo -}}
-  {{- $repoLink = printf "https://github.com/%s/%s" .Site.Params.github.siteRepo.owner .Site.Params.github.siteRepo.repo -}}
+  {{- $repoLink = printf "https://github.com/%s/%s" .Site.Params.github.siteRepo.owner .Site.Params.github.siteRepo.repo
+  -}}
   {{- end -}}
   {{ with .GitInfo }}
-  <span class='footer-item' id='git-info'><a href='{{ $repoLink }}'>git@{{ .AbbreviatedHash }}</a></span>
+  <span class='footer-item' id='git-info'><a href='{{ $repoLink }}'>git:{{ .AbbreviatedHash }}</a></span>
   {{ end }}
   <span class='noprint footer-gototop'><a href='#site-header'>Top of Page</a></span>
 </footer>
