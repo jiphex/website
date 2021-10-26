@@ -128,56 +128,6 @@ body {
 }
 
 #single-page-contents {
-<<<<<<< HEAD
-  #page-nav-links {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-  #page-title-emoji {
-    font-size: 1em;
-    margin-right: 10px;
-  }
-  #page-info {
-    h4 {
-      margin-bottom: 2px;
-    }
-    margin: 20px 0px;
-    color: #888;
-  }
-  .block {
-    h1,
-    h2,
-    h3,
-    h4 {
-      font-size: 110%;
-      margin: 0px 4px 0px 0px;
-    }
-  }
-  .block.aside {
-    @media (min-width: 600px) {
-      float: right;
-      max-width: 300px;
-      font-size: 13pt;
-      padding: 1rem;
-    }
-    @media (max-width: 601px) {
-      font-size: 16pt;
-    }
-    padding: 1rem;
-    min-width: 100px;
-    margin: 5px 10px;
-    background-color: var(--bgcolor-alt);
-    font-family: -apple-system, sans-serif;
-  }
-  .block.note {
-    background-color: var(--bgcolor-alt);
-    padding: 1em;
-    border: 1px dashed var(--accent-color);
-    font-family: -apple-system, sans-serif;
-  }
-=======
 	#page-nav-links {
 		display: flex;
 		flex-flow: row nowrap;
@@ -227,7 +177,6 @@ body {
 		font-family: -apple-system, sans-serif;
 		font-size: 90%;
 	}
->>>>>>> 44f3815 (tweak scss)
 }
 
 footer {
