@@ -59,48 +59,6 @@ Hugo is good for me for the following reasons:
   do have to dig into the code or write any kind of plugin, then that shouldn't
   be too much of a task.
 
-# Why Github Pages?
-
-It may seem slightly odd, that as a systems administrator who's interested in
-setting up services and distributed systems for "fun", that I'd choose a
-"hands-off" service such as Github Pages to publish a website about it.
-
-In fact, the ease of Github Pages and the fact that it's free of charge actually
-mean that it's a better answer for this kind of simple hosting than doing it
-"myself".
-
-With GitHub Pages, there's little chance of me having to do anything about a
-broken website (as Github's SREs will fix it anyway), there's no security
-worries or upgrades to worry about, and there's no chance that it'll end up
-costing me actual money because it got spammed into oblivion or posted on some
-news aggregator website.
-
-There are some small niggles when it comes to using Github Pages, which would be
-resolved if I were to host it on a service which I had slightly more control
-of:
-
-- It's not possible to control [security headers](https://securityheaders.com)
-  on Github Pages, which means that the configuration of the site is slightly
-  less secure than I'd like (for example I'd want to lockdown the
-  Content-Security-Policy, enable Strict-Transport-Security, and configure a
-  Feature-Policy, however none of these are options offered by Github
-- I'm missing some logging, which I might be able to do something with if I had
-  access to the underlying server behind the site. I don't want to have to
-  include any kind of analytics/tracking, so I'm somewhat in the dark when it
-  comes to knowing what kind of traffic the site is getting (I might also get
-  this from e.g Cloudflare if I had access to the CDN behind it.
-- I'm unable to see or control the CDN configuration for the site. I know that
-  Github Pages uses Fastly as their CDN, but if it was under my control, I'd be
-  able to control the caching behaviour better to try and increase the loading
-  speed of the site (by configuring a slightly more aggressive caching policy).
-  This doesn't actually have much real-world impact though, as any server-load
-  issues would be Github's problem anyway, and the site loads pretty fast
-  anyway.
-
-One day, I might move the hosting of these pages to another service, such as
-Amazon Cloudfront, Cloudflare R2, BackBlaze B2, Vercel or similar, and I'll
-write it up here if I get around to it.
-
 [site-repo]: https://github.com/jiphex/website
 [site-repo-theme]: https://github.com/jiphex/website/tree/main/themes/impthink2021
 [ssg-wp]: https://en.wikipedia.org/wiki/Web_template_system#Static_site_generators
