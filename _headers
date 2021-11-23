@@ -1,7 +1,13 @@
-https://jph.im/*
-    Strict-Transport-Security: max-age=31536000
-    Content-Security-Policy: default-src https://jph.im:443
-    X-Frame-Options: SAMEORIGIN
+/*
+    X-Frame-Options: deny
     X-Content-Type-Options: nosniff
     Referrer-Policy: no-referrer-when-downgrade
     Permissions-Policy: accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), cross-origin-isolated=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), navigation-override=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(self), xr-spatial-tracking=()
+    X-XSS-Protection: 1; mode=block
+
+https://jph.im/*
+    Strict-Transport-Security: max-age=31536000
+    Content-Security-Policy: default-src https://jph.im:443
+
+https://:project.pages.dev/*
+    X-Robots-Tag: noindex
