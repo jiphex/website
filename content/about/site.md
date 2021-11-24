@@ -8,9 +8,7 @@ The site you're reading (`jph.im`) has been generated from a set of [Markdown
 files][site-repo], using a [Static Site Generator][ssg-wp],
 [Hugo][hugo-website].
 
-The website itself is served from [Github Pages][github-pages-docs], and is
-automatically published using a [Github Action][hugo-github-action] which runs
-whenever a commit is made to the main branch.
+The website itself is built by and served from [Cloudflare Pages][cloudflare-pages].
 
 # Why use a Static-Site-Generator?
 
@@ -63,5 +61,4 @@ Hugo is good for me for the following reasons:
 [site-repo-theme]: https://github.com/jiphex/website/tree/main/themes/impthink2021
 [ssg-wp]: https://en.wikipedia.org/wiki/Web_template_system#Static_site_generators
 [hugo-website]: https://gohugo.io
-[github-pages-docs]: https://guides.github.com/features/pages/
-[hugo-github-action]: https://github.com/peaceiris/actions-hugo
+[cloudflare-pages]: https://pages.cloudflare.com
