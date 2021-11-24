@@ -8,6 +8,8 @@
 https://jph.im/*
   Strict-Transport-Security: max-age=31536000
   Content-Security-Policy: default-src https://jph.im:443
+  Report-To: {"group":"default","max_age":31536000,"endpoints":[{"url":"https://jphim.report-uri.com/a/d/g"}],"include_subdomains":true}
+  NEL: {"report_to":"default","max_age":31536000,"include_subdomains":true}
 
 https://:project.pages.dev/*
   X-Robots-Tag: noindex
