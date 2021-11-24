@@ -8,6 +8,7 @@
         {{ end }}
         {{ .Title }}
       </h2>
+      <p id='page-date'>{{ default .Page.Lastmod .Page.Date | time.Format "Jan 2, 2006"}}</p>
     </header>
     {{ end }}
     <div id='article-content'>
