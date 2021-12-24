@@ -12,6 +12,15 @@
     {{ end }}
     <div id='article-content'>
       {{ .Content }}
+      {{- if .Page.IsPage -}}
+      <hr id='page-info-divider'/>
+      <details>
+        <summary>Page Info</summary>
+        {{ partial "page-info" . }}
+      </details>
+      {{- else -}}
+      {{ partial "article-list" . }}
+      {{- end -}}
     </div>
     {{- if .Page.IsPage -}}
     {{ partial "page-info" . }}

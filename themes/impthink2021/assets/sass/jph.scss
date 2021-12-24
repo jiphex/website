@@ -49,6 +49,13 @@ body {
 	padding: 5px;
 	font-family: -apple-system-serif, "Georgia";
 	margin-top: 3em;
+	#footer-divider {
+		margin-top: 10px;
+	}
+}
+
+span.has-detail {
+	text-decoration: underline dashed;
 }
 
 #site-header {
@@ -78,10 +85,12 @@ body {
 #page-article {
 	h2#article-title {
 		font-size: 20pt;
-		margin: 5px 0px;
+		margin: 10px 0px 10px;
 	}
-	#article-content {
-		margin: 10px;
+	#page-info-divider {
+		margin-top: 30px;
+	}
+	article #article-content {
 		line-height: 150%;
 		p {
 			text-justify: newspaper;

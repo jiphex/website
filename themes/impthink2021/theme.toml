@@ -5,14 +5,14 @@ name = "Jph2021"
 license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
 description = ""
-homepage = "http://example.com/"
+homepage = "http://jph.im./"
 tags = []
 features = []
 min_version = "0.41.0"
 
 [author]
-name = ""
-homepage = ""
+name = "James Hannah"
+homepage = "https://jph.im"
 
 # If porting an existing theme
 [original]
