@@ -10,6 +10,8 @@ James is based in Cambridge, UK, and is currently a Linux systems administrator
 with over 15 years of experience building and fixing complicated distributed
 Linux systems.
 
+<!--more-->
+
 # Skills and Experience
 
 - Linux, macOS, BSD and Windows system administration

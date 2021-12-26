@@ -29,7 +29,7 @@ enableRobotsTxt = true
 
 [params]
 abstract = '''
-  A blog about imperative systems administration in "the cloud"
+  A blog about systems administration
 '''
 
 [imaging.exif]

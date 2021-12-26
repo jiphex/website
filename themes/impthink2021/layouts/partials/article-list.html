@@ -1,6 +1,6 @@
 {{ range .Pages }}
 <dl class='article-list'>
   <dt><a href="{{ .RelPermalink }}">{{ .Title }}</a>
-  <dd>{{ .Summary }}
+  <dd>{{ .Summary | plainify }}
 </dl>
 {{ end }}

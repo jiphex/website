@@ -4,9 +4,11 @@ weight=999
 draft=false
 +++
 
-The site you're reading (`jph.im`) has been generated from a set of [Markdown
+This site (`jph.im`) has been generated from a set of [Markdown
 files][site-repo], using a [Static Site Generator][ssg-wp],
 [Hugo][hugo-website].
+
+<!--more-->
 
 The website itself is built by and served from [Cloudflare Pages][cloudflare-pages].
 
