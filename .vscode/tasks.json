@@ -4,9 +4,21 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "hugo server",
+            "label": "Serve Hugo (navigate)",
             "type": "shell",
             "command": "hugo serve -w --navigateToChanged",
+            "problemMatcher": []
+        },
+        {
+            "label": "Serve Hugo (drafts)",
+            "type": "shell",
+            "command": "hugo serve -wD",
+            "problemMatcher": []
+        },
+        {
+            "label": "Serve Hugo",
+            "type": "shell",
+            "command": "hugo serve -w",
             "problemMatcher": []
         }
     ]
