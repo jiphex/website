@@ -11,7 +11,7 @@
   -}}
   {{- end -}}
   {{ with .GitInfo }}
-  <span class='footer-item' id='git-info'><a href='{{ $repoLink }}/commit/{{ .Hash }}'>git:{{ .AbbreviatedHash
+  <span class='footer-item' id='git-info'><a href='{{ $repoLink }}/tree/{{ .Hash }}'>git:{{ .AbbreviatedHash
       }}</a></span>
   {{ end }}
   <span class='noprint footer-gototop'><a href='#site-header'>Top of Page</a></span>
