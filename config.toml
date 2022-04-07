@@ -1,6 +1,6 @@
 baseURL = 'https://jph.im/'
 languageCode = 'en-GB'
-title = 'Imperative Thought'
+title = 'Declarative Thought'
 theme = 'impthink2021'
 enableEmoji = true
 enableGitInfo = true
