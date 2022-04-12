@@ -1,0 +1,14 @@
+{{ with .Site.Data.career }}
+<ul>
+  {{ range $ijob,$job := .job }}
+  <li>{{ if gt $ijob 0 }}(Previously…){{end}} {{ $job.title }} @ <a href='{{ $job.url }}'>{{ $job.org }}</a></li>
+  {{ with $job.project }}
+  <ul>
+    {{ range . }}
+    <li><a href='{{ .url }}'>{{ .name }}</a></li>
+    {{ end }}
+  </ul>
+  {{ end }}
+  {{ end }}
+</ul>
+{{ end }}

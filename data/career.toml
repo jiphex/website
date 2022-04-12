@@ -1,0 +1,27 @@
+[[job]]
+  title = "Technical Lead/Systems Administrator"
+  org = "Science & Technology Facilities Council (UKRI)"
+  url = "https://stfc.ac.uk"
+  [[job.project]]
+    name = "DAFNI Project"
+    url = "https://dafni.ac.uk"
+
+[[job]]
+  title = "Linux Systems Administrator"
+  org = "Bytemark Hosting"
+  url = "https://bytemark.co.uk"
+
+[[job]]
+  title = "Systems Administrator"
+  org = "UKFast"
+  url = "https://ukfast.co.uk"
+
+[[job]]
+  title = "Various Roles (Volunteer)"
+  org = "87.7 Bailrigg FM"
+  url = "https://bailriggfm.co.uk"
+
+[[education]]
+  course = "BSc Computer Science"
+  org = "Lancaster University"
+  url = "https://www.lancaster.ac.uk"

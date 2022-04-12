@@ -35,11 +35,7 @@ Linux systems.
 
 # Career
 
-- Technical Lead/Systems administrator for [DAFNI](https://dafni.ac.uk) @ [Science & Technology Facilities Council (UKRI)](https://www.ukri.org)
-- (Previously…) Linux Systems Administrator @ [Bytemark Hosting](https://bytemark.co.uk)
-- (Previously…) Systems Administrator @ [UKFast Hosting](https://ukfast.co.uk)
-- (Previously…) Systems Administrator/Assistant Station Manager
-  (Volunteer) @ [87.7 Bailrigg FM](https://bailriggfm.co.uk)
+{{<joblist>}}
 
 # Education
 
