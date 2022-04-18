@@ -19,7 +19,8 @@
 [[job]]
   title = "Various Roles (Volunteer)"
   org = "87.7 Bailrigg FM"
-  url = "https://bailriggfm.co.uk"
+  #url = "https://bailriggfm.co.uk"
+  url = "https://bailriggradio.lancastersu.co.uk"
 
 [[education]]
   course = "BSc Computer Science"

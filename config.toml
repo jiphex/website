@@ -21,7 +21,7 @@ enableRobotsTxt = true
   username = 'jiphex'
 
 [params.email]
-  address = 'website@james.jph.im' 
+  address = 'website@james.jph.im'
 
 [params.license]
   url = "https://creativecommons.org/licenses/by-sa/2.0/"
