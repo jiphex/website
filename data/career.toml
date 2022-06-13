@@ -5,6 +5,9 @@
   [[job.project]]
     name = "DAFNI Project"
     url = "https://dafni.ac.uk"
+  [[job.project]]
+    name = "JASMIN"
+    url = "https://jasmin.ac.uk"
 
 [[job]]
   title = "Linux Systems Administrator"
