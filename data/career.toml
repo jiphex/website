@@ -2,12 +2,14 @@
   title = "Technical Lead/Systems Administrator"
   org = "Science & Technology Facilities Council (UKRI)"
   url = "https://stfc.ac.uk"
-  [[job.project]]
-    name = "DAFNI Project"
-    url = "https://dafni.ac.uk"
+
   [[job.project]]
     name = "JASMIN"
     url = "https://jasmin.ac.uk"
+    
+  [[job.project]]
+    name = "DAFNI Project"
+    url = "https://dafni.ac.uk"
 
 [[job]]
   title = "Linux Systems Administrator"
