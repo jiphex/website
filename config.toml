@@ -3,7 +3,7 @@ languageCode = 'en-GB'
 title = 'Declarative Thought'
 theme = 'impthink2021'
 enableEmoji = true
-enableGitInfo = true
+enableGitInfo = false
 enableRobotsTxt = true
 
 [markup.highlight]
