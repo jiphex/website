@@ -17,8 +17,8 @@ enableRobotsTxt = true
     owner = 'jiphex'
     repo = 'website'
 
-[params.twitter]
-  username = 'jiphex'
+[params.mastodon]
+  profile = 'https://hachyderm.io/@jph'
 
 [params.email]
   address = 'website@james.jph.im'
