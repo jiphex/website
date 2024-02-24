@@ -1,33 +1,38 @@
 [[job]]
-  title = "Technical Lead/Systems Administrator"
-  org = "Science & Technology Facilities Council (UKRI)"
-  url = "https://stfc.ac.uk"
+title = "HPC Infrastructure Team Lead (JASMIN Project)"
+org = "Science & Technology Facilities Council (UKRI)"
+url = "https://www.ukri.org/councils/stfc/"
 
-  [[job.project]]
-    name = "JASMIN"
-    url = "https://jasmin.ac.uk"
-    
-  [[job.project]]
-    name = "DAFNI Project"
-    url = "https://dafni.ac.uk"
+[[job.project]]
+name = "JASMIN"
+url = "https://jasmin.ac.uk"
 
 [[job]]
-  title = "Linux Systems Administrator"
-  org = "Bytemark Hosting"
-  url = "https://bytemark.co.uk"
+title = "Technical Lead/Systems Administrator (DAFNI Project)"
+org = "Science & Technology Facilities Council (UKRI)"
+url = "https://www.ukri.org/councils/stfc/"
+
+[[job.project]]
+name = "DAFNI"
+url = "https://dafni.ac.uk"
 
 [[job]]
-  title = "Systems Administrator"
-  org = "UKFast"
-  url = "https://ukfast.co.uk"
+title = "Linux Systems Administrator"
+org = "Bytemark Hosting"
+url = "https://bytemark.co.uk"
 
 [[job]]
-  title = "Various Roles (Volunteer)"
-  org = "87.7 Bailrigg FM"
-  #url = "https://bailriggfm.co.uk"
-  url = "https://bailriggradio.lancastersu.co.uk"
+title = "Systems Administrator"
+org = "UKFast"
+url = "https://ukfast.co.uk"
+
+[[job]]
+title = "Various Roles (Volunteer)"
+org = "87.7 Bailrigg FM"
+#url = "https://bailriggfm.co.uk"
+url = "https://bailriggradio.lancastersu.co.uk"
 
 [[education]]
-  course = "BSc Computer Science"
-  org = "Lancaster University"
-  url = "https://www.lancaster.ac.uk"
+course = "BSc Computer Science"
+org = "Lancaster University"
+url = "https://www.lancaster.ac.uk"
