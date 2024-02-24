@@ -18,6 +18,9 @@ Linux systems.
 # Skills and Experience
 
 - Linux, macOS, BSD and Windows system administration
+- Management of large (>20k cores) HPC/HTC systems for scientific research
+- Running small technical teams
+- Completion of large public-sector IT procurements (£millions)
 - Working knowledge of a diverse set of Linux distributions
   - Debian/Ubuntu
   - RedHat/CentOS/Fedora
