@@ -10,7 +10,8 @@ files][site-repo], using a [Static Site Generator][ssg-wp],
 
 <!--more-->
 
-The website itself is built by and served from [Cloudflare Pages][cloudflare-pages].
+The website itself is built by and served from [Cloudflare
+Pages][cloudflare-pages].
 
 # Why use a Static-Site-Generator?
 
