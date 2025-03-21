@@ -1,4 +1,4 @@
-{{- $css := resources.Get . | resources.ToCSS -}}
+{{- $css := resources.Get . | css.Sass -}}
 {{- $integ := $css | resources.Fingerprint "sha512" -}}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}?hash={{ $integ.Data.Integrity | md5 }}"
   integrity="{{ $integ.Data.Integrity }}" />
